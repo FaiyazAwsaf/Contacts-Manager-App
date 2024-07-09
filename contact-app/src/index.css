@@ -1,0 +1,163 @@
+body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f5f5f5;
+}
+
+.header {
+background-color: #4c7caf;
+color: white;
+padding: 10px 20px;
+text-align: center;
+}
+
+header h1 {
+margin: 0;
+}
+
+header button {
+background-color: #ffffff;
+border: none;
+color: #4CAF50;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 10px 0;
+cursor: pointer;
+border-radius: 4px;
+}
+
+header button:hover {
+background-color: #f5f5f5;
+}
+
+form {
+background-color: white;
+padding: 20px;
+margin: 20px auto;
+width: 300px;
+border-radius: 4px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+box-sizing: border-box;
+}
+
+form button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 10px 0;
+cursor: pointer;
+width: 100%;
+border-radius: 4px;
+}
+
+form button:hover {
+background-color: #45a049;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+background-color: rgb(46, 46, 46);
+}
+
+li {
+background-color: white;
+margin: 10px auto;
+padding: 10px;
+width: 400px;
+border-radius: 4px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+li span {
+display: block;
+width: 0%;
+}
+
+li button {
+background-color: #ff4d4d;
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 14px;
+margin: 0 5px;
+cursor: pointer;
+border-radius: 4px;
+}
+
+li button:hover {
+background-color: #ff3333;
+}
+
+li button.edit {
+background-color: #4CAF50;
+}
+
+li button.edit:hover {
+background-color: #45a049;
+}
+
+.buttons {
+    display: flex;
+    float: right;
+}
+
+.search-bar {
+    padding: 10px;
+}
+
+.search-input {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.search-btn {
+    padding: 5px;
+    background-color: rgb(244, 219, 189);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.search-btn:hover {
+    background-color: rgb(246, 236, 223);
+}
+
+.addContact-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.addContact-btn:hover {
+    background-color: #45a049;
+}
+  

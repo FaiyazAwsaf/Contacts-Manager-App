@@ -1,0 +1,19 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "main": "index.js",
+
+
+  "scripts": {
+  "dev": "vite",
+  "server": "json-server --watch db.json --port 3005"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
